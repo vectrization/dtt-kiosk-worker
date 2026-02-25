@@ -9513,6 +9513,9 @@ declare abstract class D1DatabaseSession {
     getBookmark(): D1SessionBookmark | null;
 }
 declare abstract class D1PreparedStatement {
+    get() {
+      throw new Error('Method not implemented.');
+    }
     bind(...values: unknown[]): D1PreparedStatement;
     first<T = unknown>(colName: string): Promise<T | null>;
     first<T = Record<string, unknown>>(): Promise<T | null>;
