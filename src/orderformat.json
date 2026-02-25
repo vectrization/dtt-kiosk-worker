@@ -1,0 +1,21 @@
+{
+	"id": "order_uuid",
+	"created_at": 1708620000,
+	"status": "in_progress",
+	"items": [
+		{
+			"id": "line_uuid",
+			"meal_id": "1",
+			"name": "Italian Salad",
+			"quantity": 2,
+			"unit_price": 899,
+			"units": [
+				{ "id": "unit_uuid_1", "status": "ready" },
+				{ "id": "unit_uuid_2", "status": "preparing" }
+			]
+		}
+	],
+	"subtotal": 1798,
+	"tax": 150,
+	"total": 1948
+}
